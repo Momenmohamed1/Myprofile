@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #343a40;
+}
+.myname{
+    height: 100vh;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fname{
+    width: 150px;
+    overflow: hidden;
+    animation:fname 7s both;
+}
+.lname{
+    width: 130px;
+    overflow: hidden;
+    animation: lname 7s 1.5s both;
+    
+}
+.work{
+    /* text-align: center; */
+    width: fit-content;
+    overflow: hidden;
+    height: 25px;
+    animation: work 4s 3s both;
+    font-size: 23px;
+    font-weight: 600;
+}
+.lorem{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    line-height: 40px;
+}
+.mmm{
+    margin-left: 2.5cm;
+}
+@keyframes fname{
+    0%{
+        width: 0px;
+    }
+    25%{
+        width: 150px;
+    }
+}
+@keyframes lname{
+    0%{
+        width: 0px;
+    }
+    25%{
+        width: 130px;
+    }
+}
+@keyframes work{
+    0%{
+        width: 0px;
+    }
+    25%{
+        width:45px;
+    }
+    50%{
+        width: 80px ;
+    }
+    75%{
+        width:135px ;
+    }
+    100%{
+        width: fit-content;
+    }
+}
+.icon{
+    display:flex;
+    font-size: 40px;
+}
+.icon i{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.aboutname{
+    font-size: 50px;
+    font-weight: 800;
+}
+.biography{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 40px;
+}
+/* .momen{
+    position: sticky;
+    top: 0px;
+    /* bottom: 0; 
+}
+.momen2{
+    position: relative;
+} */
+
+
+
+
+
+
+
+
